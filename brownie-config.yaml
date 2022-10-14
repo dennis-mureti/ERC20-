@@ -1,0 +1,7 @@
+dependencies:
+- OpenZappelin/openzappelin-contracts@4.2.0
+copiler:
+  solc:
+    remappings:
+      - '@openzappelin=OpenZappelin/openzappelin-contracts@4.2.0'
+dotenv: .env
